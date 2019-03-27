@@ -1,0 +1,77 @@
+2019-03-27 01:09:23 Error: [MissingControllerException] Controller class FilmesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilmesController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/filmes
+Stack Trace:
+#0 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-27 01:09:53 Error: [MissingControllerException] Controller class ParticipantesController could not be found.
+Exception Attributes: array (
+  'class' => 'ParticipantesController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/Participantes
+Stack Trace:
+#0 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-27 01:10:03 Error: [MissingControllerException] Controller class ParticipantesController could not be found.
+Exception Attributes: array (
+  'class' => 'ParticipantesController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/participantes
+Stack Trace:
+#0 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-27 01:11:25 Error: [MissingViewException] View file "Participantes\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Participantes\\index.ctp',
+)
+Request URL: /sorteio/participantes
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\cake\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#4 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-03-27 01:50:49 Error: [MissingHelperException] Helper class Html0Helper could not be found.
+Exception Attributes: array (
+  'class' => 'Html0Helper',
+  'plugin' => false,
+)
+Request URL: /sorteio/participantes
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Html0')
+#1 C:\xampp\cake\lib\Cake\View\View.php(858): HelperCollection->__isset('Html0')
+#2 C:\xampp\apps\sorteio\View\Participantes\index.ctp(3): View->__get('Html0')
+#3 C:\xampp\cake\lib\Cake\View\View.php(971): include('C:\\xampp\\apps\\s...')
+#4 C:\xampp\cake\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\apps\\s...', Array)
+#5 C:\xampp\cake\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\apps\\s...')
+#6 C:\xampp\cake\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#9 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-03-27 02:11:36 Error: Fatal Error (1): Function name must be a string in [C:\xampp\apps\sorteio\View\Participantes\index.ctp, line 19]
+2019-03-27 02:11:36 Error: [FatalErrorException] Function name must be a string
+Request URL: /sorteio/participantes
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Function name m...', 'C:\\xampp\\apps\\s...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', 'C:\\xampp\\apps\\s...', 19, Array)
+#2 C:\xampp\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Function name m...', 'C:\\xampp\\apps\\s...', 19, Array)
+#3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-03-27 02:23:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\apps\sorteio\Controller\ParticipantesController.php, line 12]
+2019-03-27 02:23:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /sorteio/participantes
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\apps\\s...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\apps\\s...', 12, Array)
+#2 C:\xampp\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\apps\\s...', 12, Array)
+#3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
