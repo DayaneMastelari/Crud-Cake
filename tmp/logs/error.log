@@ -75,3 +75,93 @@ Stack Trace:
 #3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2019-03-29 20:01:39 Error: Fatal Error (1): Call to undefined function input() in [C:\xampp\apps\sorteio\View\Participantes\add.ctp, line 4]
+2019-03-29 20:01:39 Error: [FatalErrorException] Call to undefined function input()
+Request URL: /sorteio/participantes/add
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\apps\\s...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\apps\\s...', 4, Array)
+#2 C:\xampp\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\apps\\s...', 4, Array)
+#3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-03-29 21:15:18 Error: [MissingControllerException] Controller class SorteioController could not be found.
+Exception Attributes: array (
+  'class' => 'SorteioController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio//sorteio/participantes/add
+Stack Trace:
+#0 C:\xampp\htdocs\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-29 21:31:30 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\apps\sorteio\Controller\ParticipantesController.php, line 27]
+2019-03-29 21:31:30 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /sorteio/participantes/add
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\apps\\s...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\apps\\s...', 27, Array)
+#2 C:\xampp\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\apps\\s...', 27, Array)
+#3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-03-29 21:42:12 Error: Fatal Error (4): syntax error, unexpected '$editLink' (T_VARIABLE), expecting ')' in [C:\xampp\apps\sorteio\View\Participantes\index.ctp, line 10]
+2019-03-29 21:42:12 Error: [FatalErrorException] syntax error, unexpected '$editLink' (T_VARIABLE), expecting ')'
+Request URL: /sorteio/participantes
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\apps\\s...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\apps\\s...', 10, Array)
+#2 C:\xampp\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\apps\\s...', 10, Array)
+#3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-03-29 21:51:35 Error: [MissingControllerException] Controller class FilmesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilmesController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/filmes/edit5
+Stack Trace:
+#0 C:\xampp\htdocs\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-29 21:52:40 Error: [MissingControllerException] Controller class FilmesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilmesController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/filmes/edit5
+Stack Trace:
+#0 C:\xampp\htdocs\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-29 21:53:38 Error: [MissingActionException] Action ParticipantesController::edit4() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit4',
+)
+Request URL: /sorteio/participantes/edit4
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-29 21:54:41 Error: [MissingActionException] Action ParticipantesController::edit5() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit5',
+)
+Request URL: /sorteio/participantes/edit5
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-29 21:57:56 Error: [MissingActionException] Action ParticipantesController::edit4() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit4',
+)
+Request URL: /sorteio/participantes/edit4
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
