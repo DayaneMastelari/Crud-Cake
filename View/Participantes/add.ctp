@@ -17,4 +17,6 @@ $form .= $this->Form->end('Gravar');
 echo $this->Html->tag('h1', 'Novo Participante');
 echo $form;
 
+echo $voltarLink = $this->Html->link('Voltar', '/participantes');
+
 ?>

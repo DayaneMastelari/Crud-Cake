@@ -165,3 +165,123 @@ Stack Trace:
 #1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
 #2 C:\xampp\htdocs\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2019-03-30 21:18:45 Error: [MissingActionException] Action ParticipantesController::edit10() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit10',
+)
+Request URL: /sorteio/participantes/edit10
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 21:23:28 Error: [MissingActionException] Action ParticipantesController::edit11() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit11',
+)
+Request URL: /sorteio/participantes/edit11
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 21:24:42 Error: [MissingActionException] Action ParticipantesController::edit10() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit10',
+)
+Request URL: /sorteio/participantes/edit10
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 21:28:33 Error: [MissingActionException] Action ParticipantesController::edit11() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit11',
+)
+Request URL: /sorteio/participantes/edit11
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 21:30:16 Error: [MissingActionException] Action ParticipantesController::edit11() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit11',
+)
+Request URL: /sorteio/participantes/edit11
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 21:48:09 Error: [MissingActionException] Action ParticipantesController::edit11() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit11',
+)
+Request URL: /sorteio/participantes/edit11
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 21:48:16 Error: [MissingActionException] Action ParticipantesController::edit10() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit10',
+)
+Request URL: /sorteio/participantes/edit10
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 22:01:50 Error: [MissingActionException] Action ParticipantesController::edit9() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit9',
+)
+Request URL: /sorteio/participantes/edit9
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 22:06:47 Error: [MissingActionException] Action ParticipantesController::edit9() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit9',
+)
+Request URL: /sorteio/participantes/edit9
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 22:12:58 Error: [MissingActionException] Action ParticipantesController::edit9() could not be found.
+Exception Attributes: array (
+  'controller' => 'ParticipantesController',
+  'action' => 'edit9',
+)
+Request URL: /sorteio/participantes/edit9
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#2 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-03-30 22:13:12 Error: Fatal Error (1): Call to undefined function hidden() in [C:\xampp\apps\Sorteio\View\Participantes\edit.ctp, line 4]
+2019-03-30 22:13:12 Error: [FatalErrorException] Call to undefined function hidden()
+Request URL: /sorteio/participantes/edit/10
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\apps\\S...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\apps\\S...', 4, Array)
+#2 C:\xampp\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\apps\\S...', 4, Array)
+#3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
