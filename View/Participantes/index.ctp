@@ -4,8 +4,9 @@ foreach($participantes as $participante){
     $editLink = $this->Html->link('Alterar', '/participantes/edit/'. $participante['Participante']['id']);
     $deleteLink = $this->Html->link('Deletar', '/participantes/delete/' . $participante['Participante']['id']);
     $novoLink = $this->Html->link('Novo', '/participantes/add');
+    $viewLink = $this->Html->link($participante['Participante']['nome'], '/participantes/view/' . $participante['Participante']['id']);
     $detalhe[] = array(
-        $participante['Participante']['nome'],  
+        $viewLink,
         $participante['Participante']['email'],  
         $participante['Participante']['telefone'],
         $editLink . ' ' . $deleteLink

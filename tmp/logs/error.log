@@ -285,3 +285,85 @@ Stack Trace:
 #3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2019-03-31 15:27:07 Error: [MissingHelperException] Helper class FomrHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FomrHelper',
+  'plugin' => false,
+)
+Request URL: /sorteio/participantes/add
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Fomr')
+#1 C:\xampp\cake\lib\Cake\View\View.php(858): HelperCollection->__isset('Fomr')
+#2 C:\xampp\apps\Sorteio\View\Participantes\add.ctp(7): View->__get('Fomr')
+#3 C:\xampp\cake\lib\Cake\View\View.php(971): include('C:\\xampp\\apps\\S...')
+#4 C:\xampp\cake\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\apps\\s...', Array)
+#5 C:\xampp\cake\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\apps\\s...')
+#6 C:\xampp\cake\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ParticipantesController), Object(CakeRequest))
+#9 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-03-31 16:25:15 Error: [MissingControllerException] Controller class ParticipanteController could not be found.
+Exception Attributes: array (
+  'class' => 'ParticipanteController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/participante/view/10
+Stack Trace:
+#0 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-31 16:25:50 Error: [MissingControllerException] Controller class ParticipanteController could not be found.
+Exception Attributes: array (
+  'class' => 'ParticipanteController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/participante/view/10
+Stack Trace:
+#0 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-31 16:26:09 Error: [MissingControllerException] Controller class ParticipanteController could not be found.
+Exception Attributes: array (
+  'class' => 'ParticipanteController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/participante/view/11
+Stack Trace:
+#0 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-31 16:27:25 Error: [MissingControllerException] Controller class ParticipanteController could not be found.
+Exception Attributes: array (
+  'class' => 'ParticipanteController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/participante/view/10
+Stack Trace:
+#0 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-31 16:27:49 Error: [MissingControllerException] Controller class ParticipanteController could not be found.
+Exception Attributes: array (
+  'class' => 'ParticipanteController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/participante/view/10
+Stack Trace:
+#0 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-31 16:27:52 Error: [MissingControllerException] Controller class ParticipanteController could not be found.
+Exception Attributes: array (
+  'class' => 'ParticipanteController',
+  'plugin' => NULL,
+)
+Request URL: /sorteio/participante/view/10
+Stack Trace:
+#0 C:\xampp\public_html\sorteio\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-31 16:28:03 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\apps\Sorteio\View\Participantes\view.ctp, line 4]
+2019-03-31 16:28:03 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /sorteio/participantes/view/10
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\apps\\S...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\apps\\S...', 4, Array)
+#2 C:\xampp\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\apps\\S...', 4, Array)
+#3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

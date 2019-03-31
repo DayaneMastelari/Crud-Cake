@@ -41,7 +41,7 @@ class ParticipantesController extends AppController {
                 'Participante.cidade', 
                 'Participante.bairro', 
                 'Participante.endereco', 
-                'Participante.endereco', 
+                'Participante.telefone', 
                 'Participante.nascimento', 
                 'Participante.cep'
             );
@@ -54,6 +54,24 @@ class ParticipantesController extends AppController {
         $this->Participante->delete($id);
         $this->Flash->set('Participante removido com sucesso');
         $this->redirect('/participantes');
+    }
+
+    public function view($id){
+        $fields = array(
+            'Participante.id', 
+            'Participante.nome', 
+            'Participante.email', 
+            'Participante.cpf', 
+            'Participante.estado', 
+            'Participante.cidade', 
+            'Participante.bairro', 
+            'Participante.endereco', 
+            'Participante.telefone', 
+            'Participante.nascimento', 
+            'Participante.cep'
+        );
+        $conditions = array('Participante.id' => $id);
+        $this->request->data = $this->Participante->find('first', compact('fields', 'conditions'));
     }
 }
 ?>
